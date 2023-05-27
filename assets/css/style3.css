@@ -1,0 +1,246 @@
+@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: url(../images/page-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    overflow-x: hidden;
+    text-align: justify;
+}
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #263238;
+}
+
+body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #263238;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #067970;
+}
+
+a {
+    padding: 1em;
+    border-radius: 2px;
+    background-color: #067970;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+a:hover{
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    color: #067970;
+
+}
+
+/* CADRE -------------------------------------------------------- */
+
+#cadre {
+    background-color: rgba(250, 250, 250, 0.1);
+    margin: 2em 10em;
+    padding: 2em;
+    color: #fff;
+}
+
+/* TITRE -------------------------------------------------------- */
+
+.section-heading {
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-heading .line-dec{
+    width: 60px;
+    height: 3px;
+    background-color: #067970;
+    margin: 10px auto;
+}
+
+.section-heading span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+#imgdebut {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* SEPARATEUR -------------------------------------------------------- */
+
+.line-dec{
+    width: 500px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2em auto;
+}
+
+/* TEXTE -------------------------------------------------------- */
+
+.service-item {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 2em 6em;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
+
+.service-item h4 {
+    transition: all 0.5s;
+}
+
+.service-item p {
+    transition: all 0.5s;
+}
+
+.service-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.service-item:hover h4 {
+    color: #1e1e1e;
+}
+
+.service-item:hover p {
+    color: #4a4a4a;
+}
+
+#deuxjoueurs {
+
+    text-align: justify;
+}
+
+/* IMAGES -------------------------------------------------------- */
+
+#cover img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* IMAGES -------------------------------------------------------- */
+
+#images3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* FOND -------------------------------------------------------- */
+
+#fond {
+    background-color: #4a4a4a;
+}
+
+/* RETOUR ARRIERE -------------------------------------------------------- */
+
+.arrow-up {
+    background-color: #067970;
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+    overflow: hidden;
+
+    position: fixed;
+    top: 2em;
+    left: 4em;
+  }
+  
+  .arrow-slide {
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    background: #067970;
+    position: absolute;
+    display: block;
+    z-index: 0;
+  }
+  
+  .left-arm {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    top: 24px;
+    left: 8px;
+    width: 20px;
+    display: block;
+    transform: rotate(25deg);
+    &:after {
+      content: "";
+      background-color: #1e1e1e;
+      width: 20px;
+      height: 1px;
+      display: block;
+      border-radius: 1px;
+      transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+      transform-origin: left center;
+      z-index: -1;
+    }
+  }
+  
+  .right-arm {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    top: 16px;
+    left: 8px;
+    width: 20px;
+    display: block;
+    transform: rotate(-25deg);
+    border-radius: 2px;
+    &:after {
+      content: "";
+      background-color: #1e1e1e;
+      width: 20px;
+      height: 1px;
+      display: block;
+      border-radius: 1px;
+      transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+      transform-origin: left center;
+      z-index: -1;
+    }
+  }
+  
+  .arrow-up:hover {
+    transition: all .1s;
+    .left-arm:after {
+      transform: rotate(-5deg);
+    }
+    .right-arm:after {
+      transform: rotate(5deg);
+    }
+    .arrow-slide {
+      transition: all .4s ease-in-out;
+      transform: translateY(200%);
+    }
+  }
