@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Il s'agit du portfolio de Salomé Abiven, étuidante en BUt informatique. Il contient ces compétences ainsi que c'est projets réalisés" />
+    <meta name="author" content="Salomé Abiven" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"/>
+    <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/unicons.css" rel='stylesheet' >
+    
+    <title>Générateur de PDF</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/style4.css" />
+
+  </head>
+
+  <body>
+    
+    <div id="page-wraper">
+      <div id="cadre">
+        <div class="section-heading">
+          <h2>GÉNÉRATEUR DE PDF</h2>
+          <div class="line-dec"></div>
+          <div class="col-md-10 mx-auto">
+            <span>
+              Dans ce projet, en groupe de 5, notre objectif était de développer un outil capable de générer des PDF à partir d'informations brutes fournies par le client.
+            </span>
+          </div>
+        </div>
+        <div class="line-dec"></div>
+        <div class="col-md-10 mx-auto">
+          <div class="service-item">
+            <p>
+              Nous avons mis en place un outil capable de traiter et de formater des données de manière claire et attrayante, afin de faciliter la lecture et la compréhension des résultats trimestriels par les équipes du client. 
+              L'environnement de développement a été Dockerisé, permettant une gestion paramétrable et automatisée des conteneurs, et une documentation détaillée a été fournie pour guider les techniciens dans le traitement et la production des PDF.
+              Les langages et outils utilisés lors de ce projet étaient les suivants : PHP, Bash, Filtre Unix, Images Docker, HTML et CSS.
+            </p>
+          </div> 
+        </div>
+        <div class="col-md-10 mx-auto">
+          <div id="code">
+            <p>
+              Page PDF générer automatiquement
+            </p>
+            <iframe src="assets/images/generateur/PAGES PDF.pdf" width="100%" height="500px"></iframe>
+          </div>
+
+          <div class="service-item">
+            <h4>PAGE D'INTRODUCTION</h4>
+            <p>
+              La page d'introduction du projet met en avant les caractéristiques clés de la région. 
+              On y trouve le nom de la région, sa population, sa superficie ainsi que le nombre de départements qu'elle compte. 
+              De plus, le logo emblématique de la région est également présent pour une identification visuelle immédiate. 
+              Cette page permettra aux utilisateurs de prendre connaissance des informations essentielles sur la région dès le début.
+            </p>
+            <br>
+            <h4>PREMIERE PAGE</h4>
+            <p>
+              La première page du PDF comprend un titre indiquant les résultats trimestriels du XX-YYYY, où XX représente le numéro du trimestre et YYYY l'année en cours, calculés au moment du traitement. 
+              Elle est suivie d'un texte d'introduction fourni par le client.
+              Pour que tout tienne sur une seule page, un tableau des résultats comportant six colonnes a été affiché. 
+              Les colonnes incluent le nom du produit, les ventes du trimestre, le chiffre d'affaires du trimestre, les ventes du même trimestre de l'année précédente, le chiffre d'affaires du même trimestre de l'année précédente, ainsi que l'évolution du chiffre d'affaires en pourcentage et en valeur absolue. 
+              Les valeurs en gras-rouge indiquent une chute du chiffre d'affaires, tandis que les valeurs en gras-vert indiquent une augmentation. 
+              Le calcul de la colonne 6 a été effectué, tandis que les autres données ont été fournies par le client.
+            </p>
+            <br>
+            <h4>DEUXIEME PAGE</h4>
+            <p>
+              La deuxième page du PDF comprend un titre "Nos meilleurs vendeurs du trimestre". 
+              Elle affiche une liste horizontale des photos des 3 meilleurs commerciaux du trimestre, accompagnées de leur nom et du chiffre d'affaires réalisé, qui sont placés sous chaque photo. 
+              La liste a été triée par ordre décroissant du chiffre d'affaires réalisé. 
+              Et toutes les photos ont été fournies par le client.
+            </p>
+            <br>
+            <h4>TROISIEME PAGE</h4>
+            <p>
+              La troisième page du PDF comporte un lien vers une page du site de la société, utilisant le format d'URL https://bigbrain.biz/<code_region>, où <code_region> est au format ISO 3166-2. 
+              De plus, un QRCode a été généré pour encoder l'URL mentionnée ci-dessus.
+            </p>
+            <br>
+            <h4>PIED DE PAGE</h4>
+            <p> 
+              De plus, le pied de page du PDF inclut la date et l'heure de génération du document, affichées au format JJ-MM-AAAA HH:MM.
+            </p>
+          </div> 
+
+          <div class="line-dec"></div>
+          <div class="liengit">
+            <span>
+              Pour connaître en détails les programmes créées pour ce projet, passé faire un tour sur mon github :
+            </span>
+            <br><br>
+            <a href=" https://github.com/Queezac/GenerateurPDF">lien github</a>
+          </div>
+      </div>
+    </div>
+
+    <a class="arrow-up" href="index.html#projet">
+      <span class="left-arm"></span>
+      <span class="right-arm"></span>
+      <span class="arrow-slide"></span>
+    </a>
+
+  </body>
+</html>
