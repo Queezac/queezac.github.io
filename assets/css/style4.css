@@ -242,3 +242,9 @@ a:hover{
       transform: translateY(200%);
     }
   }
+
+/* LIEN GITHUB -------------------------------------------------------- */
+
+.liengit {
+    text-align: center;
+}
