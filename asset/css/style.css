@@ -142,6 +142,82 @@ a {
         margin-right: -5em;
     }
 }
+
+/* ************************* JOUR NUIT ***************************** */
+
+.theme-switch {
+    position: absolute;
+    bottom: 3em;
+    right: 3em;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+  }
+  
+  #theme-checkbox {
+    display: none;
+  }
+  
+  #theme-checkbox + label {
+    font-size: 2rem;
+    height: 1em;
+    width: 2.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cecece;
+    position: relative;
+  }
+  
+  #theme-checkbox:checked + label {
+    background-color: #3a3a3a;
+  }
+  
+  #theme-checkbox + label:active {
+    transform: scale(0.85);
+    transition: transform 0.2s;
+  }
+  
+  #theme-checkbox + label div {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: inherit;
+    position: absolute;
+    top: 0.1em;
+    left: 0.1em;
+    z-index: 10;
+    transition: 0.5s cubic-bezier(1, 0.33, 0.11, 1.34);
+    background-color: #ECECEB;
+  }
+  
+  #theme-checkbox:checked + label div {
+    left: 1.6em;
+    background-color: #ECECEB;
+  }
+  
+  #theme-checkbox + label span {
+    display: flex;
+  }
+  
+  #theme-checkbox + label svg {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    padding: 0.15em;
+    box-sizing: border-box;
+  }
+  
+  #theme-checkbox + label span:first-of-type {
+    color: #3a3a3a;
+  }
+  
+  #theme-checkbox + label span:last-of-type {
+    color: #cecece;
+  }
+  
+
+
 /* ************************* Accueil ***************************** */
 
 #acc {
@@ -203,7 +279,6 @@ a {
     display: inline-block;
     width: 0.15em;
     height: 1em;
-    background-color: #C8C4B9;
     animation: blink 1s infinite;
 }
 
@@ -397,9 +472,9 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
+}
 
-  #outils-back p {
+#outils-back p {
     writing-mode: vertical-lr;
     text-orientation: upright;
     margin-right: 1em;
@@ -407,7 +482,7 @@ a {
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 5px;
-  }
+}
 
 #lang {
     z-index: 70;
@@ -452,7 +527,7 @@ span {
     left: -4vw;
     width: 28vw;
     height: 38vh;
-    background-color: #1E1E1E;
+    background-color: transparent;
     border: #707070 1px solid;
     z-index: 1;
 }
@@ -565,7 +640,7 @@ span {
             left: 10vw;
             width: 28vw;
             height: 38vh;
-            background-color: #1E1E1E;
+            background-color: transparent;
             border: #707070 1px solid;
             z-index: 1;
         }
@@ -713,7 +788,7 @@ span {
     left: 27%;
     width: 30vw;
     height: 23vh;
-    background-color: #1E1E1E;
+    background-color: transparent;
     border: #707070 1px solid;
     z-index: 1;
 }
@@ -876,4 +951,9 @@ span {
     font-weight: 400;
     writing-mode: vertical-lr;
     text-orientation: upright;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
