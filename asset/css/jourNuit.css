@@ -1,0 +1,187 @@
+
+/* ************************************************************ MODE JOUR NUIT ********************************* */
+
+body.light-mode {
+    background-color: #ECECEB;
+}
+
+/* *********** */
+
+.light-mode .info {
+    box-shadow: 5px 0px 20px 7px rgba(0,0,0,0.25);
+}
+
+/* *********** */
+
+.light-mode .navigation a {
+    color: #1E1E1E;
+}
+.light-mode .mail {
+    color: #AFAA9C;
+}
+
+/* *********** */
+
+.light-mode #bienvenue {
+    color: #1E1E1E;
+}
+.light-mode #moi {
+    color: #1E1E1E;
+}
+.light-mode #textanimation {
+    color: #1E1E1E;
+}
+.light-mode #textepresent {
+    color: #1E1E1E;
+}
+.light-mode #boutonCV {
+    color: #ECECEB;
+}
+.light-mode #boutonCV:hover {
+    background-color: #AFAA9C;
+}
+.light-mode #elem1 {
+    border: #1E1E1E solid 1px;
+}
+.light-mode #elem2 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem3 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem4 {
+    background-color: #ECECEB;
+}
+.light-mode #elem5 {
+    background-color: #ECECEB;
+}
+
+/* *********** */
+
+.light-mode #cartes div {
+    background-color: #C8C4B9;
+}
+.light-mode #cartes div img {
+    background-color: #ECECEB;
+}
+.light-mode #elem6 {
+    border: #1E1E1E solid 1px;
+}
+.light-mode #elem7 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem8 {
+    background-color: #1E1E1E;
+}
+
+.light-mode #elem9 {
+    background-color: #ECECEB;
+}
+
+/* *********** */
+
+.light-mode #outils-back {
+    background-color: #FFFFFF;
+}
+.light-mode #outils-back p {
+    color: #C8C4B9;
+}
+.light-mode #lang {
+    background-color: #C8C4B9;
+    color: #ECECEB;
+    box-shadow: 5px 0px 15px 2px rgba(0,0,0,0.20);
+}
+.light-mode #elem10 {
+    border: #1E1E1E 1px solid;
+}
+.light-mode #elem11 {
+    background-color: #ECECEB;
+}
+.light-mode .light-mode#elem12 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem13 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem14 p{
+    color: #1E1E1E;
+}
+/* *VERSO* */
+.light-mode #langage-back {
+    background-color: #FFFFFF;
+}
+.light-mode #langage-back p {
+    color: #C8C4B9;
+}
+.light-mode #outil {
+    background-color: #C8C4B9;
+    color: #ECECEB;
+    box-shadow: -5px 0px 15px 2px rgba(0,0,0,0.20);
+}
+.light-mode #elem10bis {
+    border: #1E1E1E 1px solid;
+}
+.light-mode #elem11bis {
+    background-color: #ECECEB;
+}
+.light-mode #elem12bis {
+    background-color: #1E1E1E;
+}
+.light-mode #elem13bis {
+    background-color: #1E1E1E;
+}
+.light-mode #elem14bis p{
+    color: #1E1E1E;
+}
+
+/* *********** */
+
+.light-mode #projet1 {
+    color: #1E1E1E;
+}
+.light-mode #projet1 p {
+    color: #ECECEB;
+}
+.light-mode #projet2 {
+    color: #1E1E1E;
+}
+.light-mode #projet2 p {
+    color: #ECECEB;
+}
+.light-mode #elem15 {
+    border: #1E1E1E 1px solid;
+}
+.light-mode #elem16 {
+    background-color: #ECECEB;
+}
+.light-mode #elem17 {
+    background-color: #ECECEB;
+}
+.light-mode #elem18 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem19 p{
+    color: #AFAA9C;
+}
+
+/* *********** */
+
+.light-mode .form-container .form .button-container .send-button {
+    color: #ECECEB;
+}
+.light-mode .form .button-container .send-button:hover {
+    border: 1px solid #1E1E1E;
+    color: #1E1E1E;
+}
+.light-mode #elem20 {
+    border: #1E1E1E 1px solid;
+}
+.light-mode #elem21 {
+    background-color: #ECECEB;
+}
+.light-mode #elem22 {
+    background-color: #1E1E1E;
+}
+.light-mode #elem23 p{
+    color: #1E1E1E;
+}
