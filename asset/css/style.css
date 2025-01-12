@@ -109,6 +109,7 @@ a {
     border: transparent solid 1px;
     box-sizing: border-box;
     transition: border-color 0.3s;
+    cursor:pointer;
 
     -webkit-user-drag: none;
     user-select: none;
@@ -475,6 +476,7 @@ a {
 }
 
 .arrow {
+    cursor:pointer;
     z-index: 75;
     position: relative;
     top: 22.5vh;
@@ -974,6 +976,7 @@ span {
     font-weight: bold;
     border: 1px solid transparent;
     transition: all 0.2s ease-in-out;
+    cursor:pointer;
 }
   
 .form .button-container .send-button:hover {
