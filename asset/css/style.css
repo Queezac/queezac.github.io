@@ -621,6 +621,7 @@ span {
             position: relative;
             top: 22.5vh;
             left: -2vw ;
+            cursor:pointer;
         }
 
         .arrowbis img {
