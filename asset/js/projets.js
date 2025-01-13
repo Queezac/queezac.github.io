@@ -15,10 +15,12 @@ const projectDetails = {
         <p>Ce projet universitaire m'a beaucoup appris!
           Ma mission ? Créer une plateforme bretonne de location de logements qui ferait rougir AirBnB de jalousie!
         </p>
-        <p style="margin:1em 0;">À partir des besoins exprimés par les clients, j'ai réalisé le design du site web en ayant une liberté totale sur celui-ci. 
-          J'ai opté pour une expérience utilisateur simple mais efficace. 
-          J'ai donc concocté une maquette du site, adaptée aussi bien pour les ordinateurs que les téléphones.
-          Mais vous pouvez accéder à cette dernière grâce au lien ci-dessous, le site a été reproduit à l'identique, cela peut vous donner une idée de ce qui a été réalisé.
+        <p style="margin:1em 0;">À partir des besoins exprimés par les clients, 
+          j'ai <strong>collaboré</strong> avec mon équipe pour définir les fonctionnalités principales et m'assurer que tous les aspects du projet répondaient aux attentes. 
+          Nous avons également <strong>géré</strong> la mise en place technique, en particulier la structure de la base de données et l'intégration des différentes fonctionnalités.
+          J'ai par la suite réalisé le design du site web en ayant une liberté totale sur celui-ci.
+          J'ai donc concocté une maquette du site, adaptée aussi bien pour les ordinateurs que les téléphones. 
+          Vous pouvez accéder à cette dernière grâce au lien ci-dessous, le site a été reproduit à l'identique, cela peut vous donner une idée de ce qui a été <strong>réalisé</strong>.
         </p>
         <a href="https://www.figma.com/design/ITrB2JF8VoyhBwecxf8kIc/SAE?node-id=0-1&t=Co0FMmn6TYYJYBfF-1" target="_blank">Cliquez ici pour acceder à la maquette</a>
         <img src="asset/images/projet1/figma.png" alt="" id="img1" style="width:80%; margin:1em 0;">
@@ -54,7 +56,7 @@ projects.forEach(project => {
           "<p style='margin-top:1em;'><strong>Un système de gestion des bons de livraison :</strong> Les intervenants peuvent scanner ou ajouter manuellement des produits à une liste pour valider les bons de livraison directement sur place.</p>" +
           "<img src='asset/images/projet2/bonLivraisonInterface.png' style='width:85%; margin:1em 0;'>" +
           "<p><strong>Des retours clients pour améliorer les modules :</strong> Je suis allée plusieurs fois sur le terrain pour discuter avec nos clients et ajuster mes développements en fonction de leurs retours.</p>" +
-      "<p style='margin-top:1em;'>Cette expérience m’a permis d’apprendre à développer des solutions adaptées à des besoins concrets tout en étant à l’écoute des utilisateurs. " +
+      "<p style='margin-top:1em;'>Cette expérience m’a permis de <strong>conduire</strong> des projets complexes, <strong>optimiser</strong> les outils pour une meilleure efficacité et <strong>administrer</strong> les retours clients de manière proactive." +
       "C’est vraiment motivant de voir que mes projets simplifient le quotidien des intervenants !</p>" +
     " </div>";
 
