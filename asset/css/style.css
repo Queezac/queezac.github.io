@@ -758,7 +758,7 @@ span {
 
 .projet h2 {
     position: absolute;
-    margin-top: 5.5em;
+    margin-top: 4.5em;
     font-size: 30px;
 }
 
@@ -828,7 +828,7 @@ span {
 
 @media (min-width: 0) and (max-width: 1550px) { 
     .projet h2 {
-        margin-top: 5.2em;
+        margin-top: 5.5em;
         font-size: 25px;
     }
     
