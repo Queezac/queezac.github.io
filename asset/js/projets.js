@@ -25,7 +25,8 @@ const projectDetails = {
         <a href="https://www.figma.com/design/ITrB2JF8VoyhBwecxf8kIc/SAE?node-id=0-1&t=Co0FMmn6TYYJYBfF-1" target="_blank">Cliquez ici pour acceder à la maquette</a>
         <img src="asset/images/projet1/figma.png" alt="" id="img1" style="width:80%; margin:1em 0;">
         <p>Ce projet a été mené en utilisant la méthode <strong>Agile</strong> avec <strong>Scrum</strong>, organisé en sprints pour assurer une progression régulière</p>
-        <p>Évidemment, comme c'est un projet scolaire, j'ai dû remplir le site avec un jeu de données fictif.</p>
+        <br>
+        <p>De plus, comme c'est un projet scolaire, j'ai dû remplir le site avec un jeu de données fictif.</p>
       </div>
       <img src="asset/images/projet1/site.png" alt="" id="img2" style="width:80%; margin:1em 0;">
       
